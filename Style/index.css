@@ -1,0 +1,17 @@
+*{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.hero{
+    background-image: url("../Assets/moving\ 1.png");
+    background-position: center;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+footer{
+    background-color: black;
+    color: #fff;
+}
