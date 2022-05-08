@@ -88,14 +88,21 @@ h1{
     height: 500px ;
     width: 600px;
 }
-hr{
-    height: 2px ;
-    width: 2px ;
-    background-image: linear-gradient(to right, yellow , black);
-    padding-right: 100px;
-    display: inline;
+.movers1{
+    display: flex;
+
+}
+
+.container{
+    justify-content: space-around;
+   display: flex;
     
 }
+.movers2{
+    display: flex;
+}
+
+
 
 .about{
     display: flex;
