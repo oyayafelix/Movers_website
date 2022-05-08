@@ -81,7 +81,7 @@ h1{
     height: 500px ;
     width: 600px;
 }
-hr{
+.hr1{
     height: 2px ;
     width: 2px ;
     background-image: linear-gradient(to right, yellow , black);
@@ -112,11 +112,70 @@ hr{
 }
 
 .icon{
-    height: 180px;
-    width: 200px;
+    height: 200px;
+    width: 250px;
 }
 
+.container{
+    
+    align-content: space-between;
+    justify-content: space-between;
+    background-color: silver;
+    padding: 80px 30px 50px 80px;
+}
+.mover{
+    background-color: #fff;
+    padding: 0px 0px 10px 0px;
+    border-radius: 10%;
+}
+
+.mover1{
+    float: left;
+
+   
+}
+
+.mover2{
+    float: left;
+   
+}
+.movers1{
+    display: flex;
+    align-content: space-around;
+    justify-content: space-evenly;
+}
+.movers2{
+    display: flex;
+    align-content: space-around;
+    justify-content: space-evenly;
+}
+  
 .footer{
     background-color: #171002;
     color: #fff;
+    display: flex;
+    margin: auto;
+    padding: 80px 30px 80px 30px;
 }
+
+.child{
+    align-content: center;
+    padding-top: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: auto;
+  
+}
+
+hr{
+    height: 30px ;
+    width: 2px ;
+    background-image: linear-gradient(to right, yellow , black);
+    padding-right: 100px;
+    display: inline;
+}
+.child ul{
+    text-align: center;
+    list-style: none;
+}
+
