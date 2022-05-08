@@ -126,4 +126,5 @@ hr{
 .footer{
     background-color: #171002;
     color: #fff;
+    display: flex;
 }
