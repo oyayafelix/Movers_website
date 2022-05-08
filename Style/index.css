@@ -1,17 +1,122 @@
 *{
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 0px;
+    padding-right: 0px;
+    font-family: poppins;
+
 }
 
 .hero{
     background-image: url("../Assets/moving\ 1.png");
+    background-color: black;
     background-position: center;
-    height: 500px;
+    height: 600px;
     background-repeat: no-repeat;
     background-size: cover;
+    
+}
+h1{
+    color: #F5E83C;
+    font-size: 50px;
+
 }
 
-footer{
+.hero .menu li{
+    color: #fff;
+    list-style: none;
+    padding-left: 40px;
+    padding-right: 0px;
+    
+}
+.link{
+    text-decoration: none;
+    color: #fff;
+}
+
+.hero .menu ul{
+    display: flex;
+
+    padding-right: 200px;
+    padding-top: 30px ;
+    
+    
+}
+
+.hero .menu {
+    
+    float: right;  
+}
+
+.hero .one{
+    padding-top: 120px;
+    max-width: 40%;
+    padding-left: 100px;
+}
+
+.button1{
+    background-color: #F5E83C;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: black;
+    border: none;
+}
+
+.button2{
     background-color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #F5E83C;
+    border: none;
+}
+
+.about{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.about .image2 img{
+    height: 500px ;
+    width: 600px;
+}
+hr{
+    height: 2px ;
+    width: 2px ;
+    background-image: linear-gradient(to right, yellow , black);
+    padding-right: 100px;
+    display: inline;
+    
+}
+
+.about{
+    display: flex;
+
+}
+.about .more{
+    padding-top:0px ;
+    padding-bottom:0px ;
+    padding-right: 250px;
+    padding-left: 0px;
+    max-width: 25%;
+    margin: auto;
+}
+.button3{
+    color: #F5E83C;
+    background-color: black;
+    padding: 15px 45px;
+    border-radius: 0px 15px 0px 0px;
+    border: none;
+    
+}
+
+.icon{
+    height: 180px;
+    width: 200px;
+}
+
+.footer{
+    background-color: #171002;
     color: #fff;
 }
