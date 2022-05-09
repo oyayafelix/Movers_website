@@ -1,7 +1,7 @@
 *{
     padding-left: 0px;
     padding-right: 0px;
-    font-family: poppins;
+    font-family: 'poppins' 'Actor' 'Adamina';
 
 }
 
@@ -72,6 +72,13 @@ h1{
     border: none;
 }
 
+.linegradient {
+    width: 160px;
+    height: 5px;
+    border-radius: 10px;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(30deg, rgb(221, 189, 7) 10%, rgb(29, 21, 1) 100%);
+}
 .about{
     padding-top: 30px;
     padding-bottom: 30px;
@@ -87,8 +94,15 @@ h1{
     background-image: linear-gradient(to right, yellow , black);
     padding-right: 100px;
     display: inline;
+
+
     
 }
+.movers2{
+    display: flex;
+}
+
+
 
 .about{
     display: flex;
@@ -154,6 +168,7 @@ h1{
     background-color: #171002;
     color: #fff;
     display: flex;
+
     margin: auto;
     padding: 80px 30px 80px 30px;
 }
