@@ -88,16 +88,7 @@ h1{
     height: 500px ;
     width: 600px;
 }
-.hr1{
-    height: 2px ;
-    width: 2px ;
-    background-image: linear-gradient(to right, yellow , black);
-    padding-right: 100px;
-    display: inline;
 
-
-    
-}
 .movers2{
     display: flex;
 }
@@ -141,6 +132,7 @@ h1{
     background-color: #fff;
     padding: 0px 0px 10px 0px;
     border-radius: 10%;
+
 }
 
 .mover1{
@@ -148,6 +140,7 @@ h1{
 
    
 }
+
 
 .mover2{
     float: left;
@@ -182,15 +175,8 @@ h1{
   
 }
 
-hr{
-    height: 30px ;
-    width: 2px ;
-    background-image: linear-gradient(to right, yellow , black);
-    padding-right: 100px;
-    display: inline;
-}
+
 .child ul{
     text-align: center;
     list-style: none;
 }
-
