@@ -46,6 +46,8 @@ button{
 .form{
     background-color: #F5F5F5;
     padding-top: 30px;
+    border-radius: 5px;
+    
     
    
     
@@ -55,12 +57,14 @@ button{
     height: 500px;
     width: 800px;
     padding-left: 100px;
+    
 
 }
 .form .contact img{
-    height: 50px;
+    height: 80px;
     width: 80px;
     border-radius: 100%;
+    object-fit: cover;
     
 
 }
