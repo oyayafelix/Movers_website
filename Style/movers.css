@@ -2,3 +2,76 @@
     font-family: 'poppins' 'Actor' 'Adamina';
     
 }
+.hero{
+    background-color: #241803;
+    color: white;
+    
+}
+
+button{
+    background-color: yellow;
+    border: none;
+    border-radius: 0px 10px 0px 0px;
+    padding: 10px 20px 10px 20px;
+}
+.nav{
+    float: right;
+    padding-right: 180px;
+}
+ul{
+    display: flex;
+}
+
+li{
+    list-style: none;
+    padding-left: 50px;
+}
+.details{
+    display:flex;
+    padding: 50px 30px 10px 120px;
+       
+}
+
+.details .price2{
+    float: left;
+   padding-left: 850px;
+    
+    
+}
+
+.details .price{
+    
+}
+.form{
+    background-color: #F5F5F5;
+    padding-top: 30px;
+    padding-bottom: 20px;
+   
+    
+}
+
+.form .image1{
+    height: 500px;
+    width: 600px;
+    padding-left: 120px;
+
+}
+.form .contact img{
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+
+}
+.message{
+    display: flex;
+    
+    justify-content: space-around;
+    
+}
+.contact{
+    padding: 80px 100px 0px 100px;
+    box-shadow: inset;
+    background-color: white;
+    border-radius: 10%;
+    
+}
